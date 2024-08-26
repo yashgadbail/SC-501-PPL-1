@@ -14,6 +14,7 @@ int main()
 		return 0;
 	}
 
+	// Count characters
 	while((ch=fgetc(arrFile))!= EOF){
         if (ch==','){
             n++;
