@@ -72,5 +72,8 @@ int main()
 	}
 	printf("]\n");
 
+	// Free allocated memory
+    free(Arr);
+	
 	return 0;
 }
