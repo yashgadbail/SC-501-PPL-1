@@ -7,7 +7,7 @@ int main() {
     FILE *arrFile;
 
     // Read from file
-    arrFile = fopen("data.txt", "r");
+    arrFile = fopen("../data.txt", "r");
     if (arrFile == NULL) {
         printf("File does not exist.\n");
         return 0;
